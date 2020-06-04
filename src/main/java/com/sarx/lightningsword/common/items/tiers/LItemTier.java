@@ -7,13 +7,13 @@ import net.minecraft.util.LazyValue;
 
 import java.util.function.Supplier;
 
-public enum SwordItemTier implements IItemTier {
+public enum LItemTier implements IItemTier {
     LIGHTNING(3,5000,8.0F,5.0F,10, () -> {
         return Ingredient.fromItems(Items.DIAMOND);
     })
     ;
 
-    SwordItemTier(int harvestLevelIn, int maxUsesIn, float efficiencyIn, float attackDamageIn, int enchantabilityIn, Supplier<Ingredient> repairMaterialIn){
+    LItemTier(int harvestLevelIn, int maxUsesIn, float efficiencyIn, float attackDamageIn, int enchantabilityIn, Supplier<Ingredient> repairMaterialIn){
         this.harvestLevel = harvestLevelIn;
         this.maxUses = maxUsesIn;
         this.efficiency = efficiencyIn;
