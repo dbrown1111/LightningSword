@@ -1,0 +1,10 @@
+modLoader="javafml" #mandatory
+loaderVersion="[31,)"
+[[mods]] #mandatory
+modId="lightningsword" #mandatory
+version="1.0-Alpha" #mandatory
+displayName="Sarx's LightningSword" #mandatory
+# The description text for the mod (multi line!) (#mandatory)
+description='''
+:P
+'''
