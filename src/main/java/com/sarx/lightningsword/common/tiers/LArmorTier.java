@@ -1,4 +1,4 @@
-package com.sarx.lightningsword.common.items.tiers;
+package com.sarx.lightningsword.common.tiers;
 
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IArmorMaterial;
@@ -10,7 +10,7 @@ import net.minecraft.util.SoundEvents;
 
 import java.util.function.Supplier;
 
-public enum LArmorMaterial implements IArmorMaterial {
+public enum LArmorTier implements IArmorMaterial {
     LIGHTING("lightning",5, new int[]{3,6,8,3},10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,2.0F, () -> {
         return Ingredient.fromItems(Items.DIAMOND);
     });
@@ -25,7 +25,7 @@ public enum LArmorMaterial implements IArmorMaterial {
     private float toughness;
     private LazyValue<Ingredient> repairMaterial;
 
-    LArmorMaterial(String name, int maxDamageFactorIn, int[] damageReductionAmountArrayIn, int enchantabilityIn, SoundEvent soundEventIn, float toughnessIn, Supplier<Ingredient> repairMaterialSupplier) {
+    LArmorTier(String name, int maxDamageFactorIn, int[] damageReductionAmountArrayIn, int enchantabilityIn, SoundEvent soundEventIn, float toughnessIn, Supplier<Ingredient> repairMaterialSupplier) {
         this.name = name;
         this.maxDamageFactor = maxDamageFactorIn;
         this.damageReductionAmountArray = damageReductionAmountArrayIn;

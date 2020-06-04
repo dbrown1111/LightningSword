@@ -1,4 +1,4 @@
-package com.sarx.lightningsword.common.items.tiers;
+package com.sarx.lightningsword.common.tiers;
 
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.Items;
@@ -7,13 +7,13 @@ import net.minecraft.util.LazyValue;
 
 import java.util.function.Supplier;
 
-public enum LItemTier implements IItemTier {
+public enum LToolTier implements IItemTier {
     LIGHTNING(3,5000,8.0F,5.0F,10, () -> {
         return Ingredient.fromItems(Items.DIAMOND);
     })
     ;
 
-    LItemTier(int harvestLevelIn, int maxUsesIn, float efficiencyIn, float attackDamageIn, int enchantabilityIn, Supplier<Ingredient> repairMaterialIn){
+    LToolTier(int harvestLevelIn, int maxUsesIn, float efficiencyIn, float attackDamageIn, int enchantabilityIn, Supplier<Ingredient> repairMaterialIn){
         this.harvestLevel = harvestLevelIn;
         this.maxUses = maxUsesIn;
         this.efficiency = efficiencyIn;
