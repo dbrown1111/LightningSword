@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    " X ",
+    " A "
+  ],
+  "key": {
+    "X":  {
+      "tag": "lightningsword:lightningingot"
+    },
+    "A": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "lightningsword:lightningsword"
+  }
+}
