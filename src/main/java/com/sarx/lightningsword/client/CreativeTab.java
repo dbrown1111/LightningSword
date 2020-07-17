@@ -1,15 +1,15 @@
 package com.sarx.lightningsword.client;
 
+import com.sarx.lightningsword.common.ModItems;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 
 public class CreativeTab {
     public static final ItemGroup LightningSword = (new ItemGroup("LightningSword") {
 
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(Items.PUMPKIN);
+            return new ItemStack(ModItems.lightningsword);
         }
 
         @Override

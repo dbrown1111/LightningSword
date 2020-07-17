@@ -21,7 +21,6 @@ public class LightningSword {
 
         final IEventBus swordBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.ITEMS.register(swordBus);
-        ModItems.BLOCKS.register(swordBus);
         LOGGER.info("LightningSword Initiated!");
 
     }
