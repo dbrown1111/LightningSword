@@ -1,6 +1,6 @@
 package com.sarx.lightningsword.client;
 
-import com.sarx.lightningsword.common.ModItems;
+import com.sarx.lightningsword.common.items.LightningItems;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 
@@ -9,7 +9,7 @@ public class CreativeTab {
 
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(ModItems.lightningsword);
+            return new ItemStack(LightningItems.lightningsword);
         }
 
         @Override

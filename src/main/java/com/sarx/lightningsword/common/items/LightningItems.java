@@ -1,8 +1,8 @@
-package com.sarx.lightningsword.common;
+package com.sarx.lightningsword.common.items;
 
 import com.sarx.lightningsword.LightningSword;
 import com.sarx.lightningsword.client.CreativeTab;
-import com.sarx.lightningsword.common.items.LSpecialSwordItem;
+import com.sarx.lightningsword.common.items.tools.LSpecialSwordItem;
 import com.sarx.lightningsword.common.tiers.LArmorTier;
 import com.sarx.lightningsword.common.tiers.LToolTier;
 import net.minecraft.inventory.EquipmentSlotType;
@@ -10,7 +10,7 @@ import net.minecraft.item.*;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
-public class ModItems {
+public class LightningItems {
     public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, LightningSword.modid);
 
 

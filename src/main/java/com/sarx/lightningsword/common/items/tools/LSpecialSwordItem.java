@@ -1,4 +1,4 @@
-package com.sarx.lightningsword.common.items;
+package com.sarx.lightningsword.common.items.tools;
 
 import net.minecraft.entity.effect.LightningBoltEntity;
 import net.minecraft.entity.player.PlayerEntity;
