@@ -6,5 +6,5 @@ version="1.0-Alpha" #mandatory
 displayName="Sarx's LightningSword" #mandatory
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-:P
+A Sword with Lighting
 '''
