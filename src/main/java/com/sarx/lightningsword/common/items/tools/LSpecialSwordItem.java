@@ -48,8 +48,8 @@ public class LSpecialSwordItem extends SwordItem {
             ((ServerWorld) world).addLightningBolt(bolt);
 
             // Debugging Purposes
-            player.sendMessage(new StringTextComponent("Player X: " + d1 + "Player Y: " + f2 + "Player Z: " +d3 ).applyTextStyle(TextFormatting.RED));
-            player.sendMessage(new StringTextComponent("Sword X: " + f1 + "Sword Y: " + f2 + "Sword Z: " + f3 ).applyTextStyle(TextFormatting.RED));
+//            player.sendMessage(new StringTextComponent("Player X: " + d1 + "Player Y: " + f2 + "Player Z: " +d3 ).applyTextStyle(TextFormatting.RED));
+//            player.sendMessage(new StringTextComponent("Sword X: " + f1 + "Sword Y: " + f2 + "Sword Z: " + f3 ).applyTextStyle(TextFormatting.RED));
         }
         return new ActionResult<ItemStack>(ActionResultType.SUCCESS, heldItem);
     }
